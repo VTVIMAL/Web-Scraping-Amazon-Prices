@@ -4,8 +4,10 @@ Scraped Amazon.in for price and sends email if pirce drop on product
 
 ## External Libraries:
 <li>smtplib to send email to user form user.
+<li>EmailMessage to format email content
 <li>requests
-<li>bs4 BeautifulSoup  
+<li>bs4 BeautifulSoup 
+
 
 To run tests change the acceptable_price to the current price of the product and change the msg['To'] to your personal/test email.
 ## Product link
