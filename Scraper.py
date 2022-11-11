@@ -42,7 +42,7 @@ def check_price():
     if float_price <= acceptable_price:
         send_mail()  # send mail if price acceptable
 
-
+# funciton to be called when product price is acceptable
 def send_mail():
 
     msg = EmailMessage()
